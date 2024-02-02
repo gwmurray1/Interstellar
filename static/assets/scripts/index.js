@@ -46,10 +46,4 @@ function isUrl(val = '') {
   if (/^http(s?):\/\//.test(val) || (val.includes('.') && val.substr(0, 1) !== ' ')) return true
   return false
 }
-var password
-var pass1 = 'hamburger'
-password = prompt('Please enter your password.', ' ')
-if (password == pass1) alert('Password Correct! This site is made by Chang.')
-else {
- window.location = 'google.com'
-}
+
